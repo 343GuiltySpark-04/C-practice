@@ -15,3 +15,6 @@ clean:
 
 build:
 	cc $(CFLAGS) src/main.c
+
+strip:
+	strip a.out
