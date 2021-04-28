@@ -1,14 +1,14 @@
 #include <stdio.h>
-#include <stdint.h>
+#include "matrix.c"
 
-int main(){
 
-int a = 1;
 
-int b = 1;
+void main(){
 
-int c = a + b;
-printf("\t%i", c);
- 
+
+
+
+
+
 
 }

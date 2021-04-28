@@ -1,13 +1,17 @@
 
-CFLAGS= -Wint-conversion -std=gnu11
+
+
+CFLAGS= -g -pie -std=gnu11
+
+INCLUDE=src/include
 
 
 all: clean build
 
 clean:
 	rm -f ./*.out
-
+	rm -f ./src/*.o
 
 
 build:
-	gcc -v -g $(CFLAGS) src/main.c
+	cc $(CFLAGS) src/main.c
