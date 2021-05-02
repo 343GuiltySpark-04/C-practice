@@ -1,7 +1,7 @@
 
 
 
-CFLAGS= -g -pie -std=gnu11
+CFLAGS= -g  -pie -std=gnu11
 
 INCLUDE=src/include
 
