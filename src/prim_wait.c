@@ -1,3 +1,7 @@
+
+
+#ifdef _PRIME_WAIT
+
 #include "prim_wait.h"
 
 static volatile void prim_wait(int time)
@@ -15,3 +19,4 @@ static volatile void prim_wait(int time)
 
     return;
 }
+#endif
