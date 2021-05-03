@@ -1,9 +1,9 @@
 #ifndef _PRIM_WAIT
 #define _PRIM_WAIT
-#define _PRIM_SECOND 22308
+#define _PRIM_SECOND 55000000
 
 #include <stdio.h>
 
-static volatile void prim_wait(int time);
+volatile void prim_wait(unsigned int millis);
 
 #endif

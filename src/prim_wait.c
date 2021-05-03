@@ -1,22 +1,7 @@
 
-
-#ifdef _PRIME_WAIT
-
 #include "prim_wait.h"
-
-static volatile void prim_wait(int time)
+volatile void prim_wait(unsigned int millis)
 {
-
-    int c, d;
-    int counter_max = _PRIM_SECOND * time;
-
-    for (c = 1; c <= counter_max; c++)
-        for (d = 1; d <= counter_max; d++)
-        {
-            //printf("\t%i", counter_max);
-            printf("\t%i", c);
-        }
-
-    return;
+    for(unsigned int i = 0; i < millis; i++)
+        for(unsigned int j = 0; j < _PRIM_SECOND; j++);
 }
-#endif
