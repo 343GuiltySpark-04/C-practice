@@ -1,14 +1,10 @@
 #include <time.h>
 #include <stdlib.h>
 
+int matrix(void)
+{
 
+    int random = rand();
 
-int matrix(void){
-
-
-int random = rand();
-
-return random;
-
-
+    return random;
 }

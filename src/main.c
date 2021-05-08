@@ -7,7 +7,4 @@
 
 int main()
 {
-    prim_wait(10);
-    printf("DONE");
-    exit(EXIT_SUCCESS);
 }
